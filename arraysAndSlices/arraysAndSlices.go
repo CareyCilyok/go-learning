@@ -38,7 +38,7 @@ func main() {
 	fmt.Printf("%v\n", a)
 	fmt.Printf("%v\n", c)
 
-	s1 := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}                                       // It's sublte but this is a slice due to lack of a predefined size
+	s1 := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}                                       // It's subtle but this is a slice due to lack of a predefined size
 	fmt.Printf("%v, Length of s1 = %v, Capacity of s1 = %v\n", s1, len(s1), cap(s1)) // Slices have a length and an underlying capacity of the backing array
 
 	// More ways to create slices which is illustrative of the name
