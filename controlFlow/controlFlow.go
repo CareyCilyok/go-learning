@@ -5,10 +5,10 @@
 // 4. A "type switch"
 //
 // Notes:
-//   Go implements short cirtcuiting as expected and implents lazy evaluation
+//   Go implements short circuiting as expected and implents lazy evaluation
 //   The assumed else and else if syntax is also available
 //   The switch/case formatting is really the first time I don't like fmt.  :-(
-//   Switch statements have an implicit "break", hence Go has a "fallthrough" keyword to force that behavior
+//   Switch statements have an implicit "break", hence Go has an explicit "fallthrough" keyword to force that behavior
 //   The "break" keyword is actually used but its typical usage is for an early break out of a case condition
 
 package main
