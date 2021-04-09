@@ -6,6 +6,7 @@
 // Notes:
 //    Go only has the for loop
 //    The ++ is not an expression, it is a statment
+//    There is also a "continue" keyword
 
 package main
 
