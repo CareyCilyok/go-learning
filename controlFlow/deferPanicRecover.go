@@ -6,6 +6,7 @@
 //
 // Notes:
 //    defer defers the statment AFTER the end of the function but before the function returns
+//    defer statements run in stack (LIFO) order
 //    panic statements happen AFTER deferred statements, hence defers that close resources will execute even under a panic
 //
 
