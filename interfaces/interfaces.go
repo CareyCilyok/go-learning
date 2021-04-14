@@ -6,11 +6,14 @@
 //
 // Notes:
 //   All the methods of an interface are referred to as that interface's "method set"
-//   Variable declared as the concrete type of some interface, if declared by value
+//      Method set of value is all methods with value receivers
+//      Method set of pointer is all methods, regardless of receiver type
+//   Variable declared as the concrete type of some interface, if declared by value,
 //      receive all the methods of that interface that accept "value receivers". But
 //      if that same variable is declared as a pointer to that concrete type, then
 //      the variable receives the method set consisting of all methods that accept
-//      pointer receivers and value receivers inclusive.
+//      pointer receivers and value receivers inclusive. Hence, variable declared as
+//      pointers to an interface have a more flexible usage.
 
 package main
 
