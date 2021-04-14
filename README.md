@@ -1,7 +1,7 @@
 # go-learning
 Learning the Go language... Play/share area with friends
 
-#My approach
+# My approach
 A lot of programming or scripting languages I jump into immediately trying to just transfer my experience with other programming languages directly into them and doing "on the fly" transcoding and translation. If that language isn't going to be my "daily driver" that's great and works.
 
 But...
